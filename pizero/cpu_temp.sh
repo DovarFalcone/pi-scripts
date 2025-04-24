@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Run with crontab -e 
-#* * * * * /home/dennis/sensor_projects/temperature/cpu_temp.sh
+#* * * * * /home/dennis/sensor_projects/pi_monitoring/cpu_temp.sh
 
 # Replace these with your actual values
 HOST="your_host"
