@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Run with crontab -e 
-#* * * * * /home/dennis/sensor_projects/pi_monitoring/cpu_usage.sh
+# * * * * * find /home/dennis/sensor_data/pi-scripts/sensor -name '*.sh' -exec bash {} \;
 
 # Get the directory where the script is located
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
